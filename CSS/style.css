@@ -1,0 +1,249 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 55px;
+  /* position: absolute; */
+  position: fixed;
+  background: linear-gradient(
+    -90deg,
+    rgba(9, 101, 121, 0) 0%,
+    rgba(9, 100, 121, 1) 100%
+  );
+  /* margin-top: 20px; */
+  z-index: 2;
+}
+nav {
+  float: right;
+  padding-top: 10px;
+  margin-right: -50px;
+}
+#H11 {
+  color: white;
+  display: inline;
+  float: left;
+  margin: 0px;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+.navbar_a {
+  font-size: x-large;
+  font-weight: bold;
+  width: 100px;
+  color: rgb(9, 101, 121, 0.737);
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 20px;
+  border-radius: 6px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(9, 101, 121, 0.26) 100%
+  );
+}
+.navbar_a:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(9, 101, 121, 0.667) 100%
+  );
+  border-radius: 6px;
+}
+.img1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 7.5px;
+  margin-left: 20px;
+  float: left;
+}
+main {
+  width: 88%;
+  padding-top: 50px;
+
+  margin: 10px;
+  margin-right: 0px;
+  float: left;
+}
+.Card {
+  border: 1px solid rgb(111, 3, 30);
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255) 0%,
+    rgba(9, 100, 121, 1) 100%
+  );
+  border-radius: 12px;
+  margin: 10px;
+}
+.Card:hover {
+  background: linear-gradient(
+    0deg,
+    rgb(255, 255, 255) 0%,
+    rgba(9, 100, 121, 0.7) 100%
+  );
+  border: 1px solid rgb(111, 3, 30, 0.578);
+  border-radius: 14px;
+  box-shadow: 5px 5px 10px grey;
+}
+.img2 {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.Card h1 {
+  margin-top: 0px;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  direction: ltr;
+  font-size: 25px;
+}
+.Card h2 {
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  direction: ltr;
+}
+.Card h3 {
+  display: inline;
+  color: rgb(100, 100, 100);
+
+  float: left;
+  margin: 5px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.Boy h5 {
+  color: white;
+  font-size: 1.1em;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.Boy {
+  display: inline-block;
+  margin-right: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: rgba(9, 101, 121, 0.753);
+  border-radius: 6px;
+  z-index: 1;
+}
+.Boy:hover {
+  background-color: rgb(9, 101, 121);
+  box-shadow: 2px 2px 5px grey;
+}
+.Book_playlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.asidea {
+  padding: 10px;
+  /* padding-top: 100px; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10%;
+  height: 100%;
+  /* box-shadow: 1px 1px 5px grey; */
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255) 0%,
+    rgba(9, 100, 121, 1) 100%
+  );
+}
+.asidea a {
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  width: 90%;
+  direction: rtl;
+  padding-bottom: 100px;
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration: none;
+}
+.aside_div {
+  color: white;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(9, 101, 121, 0.26) 100%
+  );
+}
+.aside_div:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(9, 100, 121, 1) 100%
+  );
+}
+.img3 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 5px;
+  /* margin-bottom: 20px; */
+}
+#footer {
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(
+    -90deg,
+    rgb(255, 255, 255) 0%,
+    rgba(9, 100, 121, 1) 100%
+  );
+}
+
+#footer p {
+  font-size: xx-large;
+  display: inline;
+  color: white;
+}
+
+.navbar_a2 {
+  font-size: x-large;
+  font-weight: bold;
+  width: 100px;
+  color: rgba(255, 255, 255, 0.737);
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 20px;
+  border-radius: 6px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(9, 101, 121, 0.26) 100%
+  );
+}
+.navbar_a2:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(9, 101, 121, 0.667) 100%
+  );
+  border-radius: 6px;
+}
